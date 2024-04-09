@@ -11,3 +11,4 @@ This repository contains my solutions to various LeetCode problems implemented i
 | 169        | Majority Element                 | [Solution](src/main/java/com/anirudhology/leetcoding/array/MajorityElement.java)            | Easy       | Array |
 | 217        | Contains Duplicate               | [Solution](src/main/java/com/anirudhology/leetcoding/array/ContainsDuplicate.java)          | Easy       | Array |
 | 283        | Move Zeroes                      | [Solution](src/main/java/com/anirudhology/leetcoding/array/MoveZeroes.java)                 | Easy       | Array |
+| 977        | Squares Of Sorted Array          | [Solution](src/main/java/com/anirudhology/leetcoding/array/SquaresOfSortedArray.java)       | Easy       | Array |

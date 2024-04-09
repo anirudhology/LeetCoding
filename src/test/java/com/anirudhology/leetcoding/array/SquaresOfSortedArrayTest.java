@@ -30,7 +30,6 @@ class SquaresOfSortedArrayTest {
     void testSortedSquaresSpecialCase() {
         // Special case: empty array
         int[] nums4 = {};
-        int[] expected4 = {};
         IllegalArgumentException exception = assertThrows(IllegalArgumentException.class, () -> squaresOfSortedArray.sortedSquares(nums4));
         assertEquals("Array cannot be null or empty.", exception.getMessage());
 
