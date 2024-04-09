@@ -10,3 +10,4 @@ This repository contains my solutions to various LeetCode problems implemented i
 | 121        | Best Time To Buy And Sell Stocks | [Solution](src/main/java/com/anirudhology/leetcoding/array/BestTimeToBuyAndSellStocks.java) | Easy       | Array |
 | 169        | Majority Element                 | [Solution](src/main/java/com/anirudhology/leetcoding/array/MajorityElement.java)            | Easy       | Array |
 | 217        | Contains Duplicate               | [Solution](src/main/java/com/anirudhology/leetcoding/array/ContainsDuplicate.java)          | Easy       | Array |
+| 283        | Move Zeroes                      | [Solution](src/main/java/com/anirudhology/leetcoding/array/MoveZeroes.java)                 | Easy       | Array |
