@@ -14,6 +14,7 @@ This repository contains my solutions to various LeetCode problems implemented i
 | 121        | Best Time To Buy And Sell Stocks | [Solution](src/main/java/com/anirudhology/leetcoding/array/BestTimeToBuyAndSellStocks.java)   | Easy       | Array               |
 | 169        | Majority Element                 | [Solution](src/main/java/com/anirudhology/leetcoding/array/MajorityElement.java)              | Easy       | Array               |
 | 217        | Contains Duplicate               | [Solution](src/main/java/com/anirudhology/leetcoding/array/ContainsDuplicate.java)            | Easy       | Array               |
+| 226        | Invert Binary Tree               | [Solution](src/main/java/com/anirudhology/leetcoding/tree/InvertBinaryTree.java)              | Easy       | Tree                |
 | 283        | Move Zeroes                      | [Solution](src/main/java/com/anirudhology/leetcoding/array/MoveZeroes.java)                   | Easy       | Array               |
 | 322        | Coin Change                      | [Solution](src/main/java/com/anirudhology/leetcoding/dynamicprogramming/CoinChange.java)      | Medium     | Dynamic Programming |
 | 920        | Meeting Rooms                    | [Solution](src/main/java/com/anirudhology/leetcoding/array/MeetingRooms.java)                 | Easy       | Array               |
