@@ -28,6 +28,6 @@ class InsertIntervalTest {
                 {8, 10},
                 {12, 16}
         };
-
+        assertArrayEquals(expected, insertInterval.insert(intervals, newInterval));
     }
 }

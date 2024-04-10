@@ -8,6 +8,7 @@ This repository contains my solutions to various LeetCode problems implemented i
 |------------|----------------------------------|-----------------------------------------------------------------------------------------------|------------|---------------------|
 | 1          | Two Sum                          | [Solution](src/main/java/com/anirudhology/leetcoding/array/TwoSum.java)                       | Easy       | Array               |
 | 53         | Maximum Subarray                 | [Solution](src/main/java/com/anirudhology/leetcoding/dynamicprogramming/MaximumSubarray.java) | Medium     | Dynamic Programming |
+| 57         | Insert Interval                  | [Solution](src/main/java/com/anirudhology/leetcoding/array/InsertInterval.java)               | Medium     | Array               |
 | 70         | Climbing Stairs                  | [Solution](src/main/java/com/anirudhology/leetcoding/dynamicprogramming/ClimbingStairs.java)  | Easy       | Dynamic Programming |
 | 121        | Best Time To Buy And Sell Stocks | [Solution](src/main/java/com/anirudhology/leetcoding/array/BestTimeToBuyAndSellStocks.java)   | Easy       | Array               |
 | 169        | Majority Element                 | [Solution](src/main/java/com/anirudhology/leetcoding/array/MajorityElement.java)              | Easy       | Array               |
