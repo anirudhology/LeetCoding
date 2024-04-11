@@ -2,7 +2,7 @@
 
 This repository contains my solutions to various LeetCode problems implemented in Java.
 
-## Array
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/anirudhology/LeetCoding/blob/main/LICENSE)
 
 | Problem ID | Problem Name                     | Solution Source                                                                               | Difficulty | Tag                 |
 |------------|----------------------------------|-----------------------------------------------------------------------------------------------|------------|---------------------|
