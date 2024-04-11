@@ -8,6 +8,7 @@ This repository contains my solutions to various LeetCode problems implemented i
 |------------|----------------------------------|-----------------------------------------------------------------------------------------------|------------|---------------------|
 | 1          | Two Sum                          | [Solution](src/main/java/com/anirudhology/leetcoding/array/TwoSum.java)                       | Easy       | Array               |
 | 15         | Three Sum                        | [Solution](src/main/java/com/anirudhology/leetcoding/array/ThreeSum.java)                     | Medium     | Array               |
+| 39         | Combination Sum                  | [Solution](src/main/java/com/anirudhology/leetcoding/array/CombinationSum.java)               | Medium     | Backtracking        |
 | 53         | Maximum Subarray                 | [Solution](src/main/java/com/anirudhology/leetcoding/dynamicprogramming/MaximumSubarray.java) | Medium     | Dynamic Programming |
 | 57         | Insert Interval                  | [Solution](src/main/java/com/anirudhology/leetcoding/array/InsertInterval.java)               | Medium     | Array               |
 | 70         | Climbing Stairs                  | [Solution](src/main/java/com/anirudhology/leetcoding/dynamicprogramming/ClimbingStairs.java)  | Easy       | Dynamic Programming |
