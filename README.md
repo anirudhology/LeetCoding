@@ -12,6 +12,7 @@ This repository contains my solutions to various LeetCode problems implemented i
 | 53         | Maximum Subarray                 | [Solution](src/main/java/com/anirudhology/leetcoding/dynamicprogramming/MaximumSubarray.java) | Medium     | Dynamic Programming |
 | 57         | Insert Interval                  | [Solution](src/main/java/com/anirudhology/leetcoding/array/InsertInterval.java)               | Medium     | Array               |
 | 70         | Climbing Stairs                  | [Solution](src/main/java/com/anirudhology/leetcoding/dynamicprogramming/ClimbingStairs.java)  | Easy       | Dynamic Programming |
+| 100        | Same Tree                        | [Solution](src/main/java/com/anirudhology/leetcoding/tree/SameTree.java)                      | Easy       | Tree                |
 | 104        | Maximum Depth Of Binary Tree     | [Solution](src/main/java/com/anirudhology/leetcoding/tree/MaximumDepthOfBinaryTree.java)      | Easy       | Tree                |
 | 110        | Balanced Binary Tree             | [Solution](src/main/java/com/anirudhology/leetcoding/tree/BalancedBinaryTree.java)            | Easy       | Tree                |
 | 121        | Best Time To Buy And Sell Stocks | [Solution](src/main/java/com/anirudhology/leetcoding/array/BestTimeToBuyAndSellStocks.java)   | Easy       | Array               |
