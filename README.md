@@ -21,5 +21,6 @@ This repository contains my solutions to various LeetCode problems implemented i
 | 238        | Product Of Array Except Self     | [Solution](src/main/java/com/anirudhology/leetcoding/array/ProductOfArrayExceptSelf.java)     | Medium     | Array               |
 | 283        | Move Zeroes                      | [Solution](src/main/java/com/anirudhology/leetcoding/array/MoveZeroes.java)                   | Easy       | Array               |
 | 322        | Coin Change                      | [Solution](src/main/java/com/anirudhology/leetcoding/dynamicprogramming/CoinChange.java)      | Medium     | Dynamic Programming |
+| 543        | Diameter Of Binary Tree          | [Solution](src/main/java/com/anirudhology/leetcoding/tree/DiameterOfBinaryTree.java)          | Easy       | Tree                |
 | 920        | Meeting Rooms                    | [Solution](src/main/java/com/anirudhology/leetcoding/array/MeetingRooms.java)                 | Easy       | Array               |
 | 977        | Squares Of Sorted Array          | [Solution](src/main/java/com/anirudhology/leetcoding/array/SquaresOfSortedArray.java)         | Easy       | Array               |
