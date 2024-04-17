@@ -28,6 +28,7 @@ This repository contains my solutions to various LeetCode problems implemented i
 | 226        | Invert Binary Tree                      | [Solution](src/main/java/com/anirudhology/leetcoding/tree/InvertBinaryTree.java)                      | Easy       | Tree                |
 | 236        | Lowest Common Ancestor Of A Binary Tree | [Solution](src/main/java/com/anirudhology/leetcoding/tree/LowestCommonAncestorOfABinaryTree.java)     | Medium     | Tree                |
 | 238        | Product Of Array Except Self            | [Solution](src/main/java/com/anirudhology/leetcoding/array/ProductOfArrayExceptSelf.java)             | Medium     | Array               |
+| 242        | Valid Anagram                           | [Solution](src/main/java/com/anirudhology/leetcoding/string/ValidAnagram.java)                        | Easy       | String              |
 | 283        | Move Zeroes                             | [Solution](src/main/java/com/anirudhology/leetcoding/array/MoveZeroes.java)                           | Easy       | Array               |
 | 322        | Coin Change                             | [Solution](src/main/java/com/anirudhology/leetcoding/dynamicprogramming/CoinChange.java)              | Medium     | Dynamic Programming |
 | 416        | Partition Equal Subset Sum              | [Solution](src/main/java/com/anirudhology/leetcoding/dynamicprogramming/PartitionEqualSubsetSum.java) | Medium     | Dynamic Programming |
