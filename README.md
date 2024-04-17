@@ -21,6 +21,7 @@ This repository contains my solutions to various LeetCode problems implemented i
 | 104        | Maximum Depth Of Binary Tree            | [Solution](src/main/java/com/anirudhology/leetcoding/tree/MaximumDepthOfBinaryTree.java)              | Easy       | Tree                |
 | 110        | Balanced Binary Tree                    | [Solution](src/main/java/com/anirudhology/leetcoding/tree/BalancedBinaryTree.java)                    | Easy       | Tree                |
 | 121        | Best Time To Buy And Sell Stocks        | [Solution](src/main/java/com/anirudhology/leetcoding/array/BestTimeToBuyAndSellStocks.java)           | Easy       | Array               |
+| 125        | Valid Palindrome                        | [Solution](src/main/java/com/anirudhology/leetcoding/string/ValidPalindrome.java)                     | Easy       | String              |
 | 134        | Gas Station                             | [Solution](src/main/java/com/anirudhology/leetcoding/array/GasStation.java)                           | Medium     | Array, Greedy       |
 | 169        | Majority Element                        | [Solution](src/main/java/com/anirudhology/leetcoding/array/MajorityElement.java)                      | Easy       | Array               |
 | 217        | Contains Duplicate                      | [Solution](src/main/java/com/anirudhology/leetcoding/array/ContainsDuplicate.java)                    | Easy       | Array               |
