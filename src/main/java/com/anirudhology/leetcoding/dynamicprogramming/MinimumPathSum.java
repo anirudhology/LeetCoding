@@ -2,7 +2,7 @@ package com.anirudhology.leetcoding.dynamicprogramming;
 
 public class MinimumPathSum {
 
-    public int minPathSum(int[][] grid) {
+    public int minPathSumOne(int[][] grid) {
         // Special case
         if (grid == null || grid.length == 0) {
             throw new IllegalArgumentException("Invalid grid!");
@@ -34,5 +34,32 @@ public class MinimumPathSum {
             }
         }
         return lookup[m - 1][n - 1];
+    }
+
+    public int minPathSumTwo(int[][] grid) {
+        // Special case
+        if (grid == null || grid.length == 0) {
+            throw new IllegalArgumentException("Invalid grid!");
+        }
+        // Grid dimensions
+        int m = grid.length;
+        int n = grid[0].length;
+        // Traverse for every cell
+        for (int i = 0; i < m; i++) {
+            for (int j = 0; j < n; j++) {
+                if (i != 0 && j != 0) {
+                    grid[i][j] += Math.min(grid[i - 1][j], grid[i][j - 1]);
+                }
+                // For the first column
+                else if (i != 0) {
+                    grid[i][0] += grid[i - 1][0];
+                }
+                // For the first row
+                else if (j != 0) {
+                    grid[0][j] += grid[0][j - 1];
+                }
+            }
+        }
+        return grid[m - 1][n - 1];
     }
 }
