@@ -13,6 +13,7 @@ This repository contains my solutions to various LeetCode problems implemented i
 | 53         | Maximum Subarray                        | [Solution](src/main/java/com/anirudhology/leetcoding/dynamicprogramming/MaximumSubarray.java)         | Medium     | Dynamic Programming |
 | 56         | Merge Interval                          | [Solution](src/main/java/com/anirudhology/leetcoding/array/MergeIntervals.java)                       | Medium     | Array               |
 | 57         | Insert Interval                         | [Solution](src/main/java/com/anirudhology/leetcoding/array/InsertInterval.java)                       | Medium     | Array               |
+| 64         | Minimum Path Sum                        | [Solution](src/main/java/com/anirudhology/leetcoding/dynamicprogramming/MinimumPathSum.java)          | Medium     | Dynamic Programming |
 | 70         | Climbing Stairs                         | [Solution](src/main/java/com/anirudhology/leetcoding/dynamicprogramming/ClimbingStairs.java)          | Easy       | Dynamic Programming |
 | 75         | Sort Colors                             | [Solution](src/main/java/com/anirudhology/leetcoding/array/SortColors.java)                           | Medium     | Array               |
 | 100        | Same Tree                               | [Solution](src/main/java/com/anirudhology/leetcoding/tree/SameTree.java)                              | Easy       | Tree                |
