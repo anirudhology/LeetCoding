@@ -40,3 +40,4 @@ This repository contains my solutions to various LeetCode problems implemented i
 | 920        | Meeting Rooms                           | [Solution](src/main/java/com/anirudhology/leetcoding/array/MeetingRooms.java)                         | Easy       | Array               |
 | 931        | Minimum Falling Path Sum                | [Solution](src/main/java/com/anirudhology/leetcoding/dynamicprogramming/MinimumFallingPathSum.java)   | Medium     | Dynamic Programming |
 | 977        | Squares Of Sorted Array                 | [Solution](src/main/java/com/anirudhology/leetcoding/array/SquaresOfSortedArray.java)                 | Easy       | Array               |
+| 983        | Minimum Cost For Tickets                | [Solution](src/main/java/com/anirudhology/leetcoding/dynamicprogramming/MinimumCostForTickets.java)   | Medium     | Dynamic Programming |
