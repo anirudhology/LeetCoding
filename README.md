@@ -21,6 +21,7 @@ This repository contains my solutions to various LeetCode problems implemented i
 | 102        | Binary Tree Level Order Traversal       | [Solution](src/main/java/com/anirudhology/leetcoding/tree/BinaryTreeLevelOrderTraversal.java)         | Medium     | Tree                |
 | 104        | Maximum Depth Of Binary Tree            | [Solution](src/main/java/com/anirudhology/leetcoding/tree/MaximumDepthOfBinaryTree.java)              | Easy       | Tree                |
 | 110        | Balanced Binary Tree                    | [Solution](src/main/java/com/anirudhology/leetcoding/tree/BalancedBinaryTree.java)                    | Easy       | Tree                |
+| 120        | Triangle                                | [Solution](src/main/java/com/anirudhology/leetcoding/dynamicprogramming/Triangle.java)                | Medium     | Dynamic Programming |
 | 121        | Best Time To Buy And Sell Stocks        | [Solution](src/main/java/com/anirudhology/leetcoding/array/BestTimeToBuyAndSellStocks.java)           | Easy       | Array               |
 | 125        | Valid Palindrome                        | [Solution](src/main/java/com/anirudhology/leetcoding/string/ValidPalindrome.java)                     | Easy       | String              |
 | 128        | Longest Consecutive Sequence            | [Solution](src/main/java/com/anirudhology/leetcoding/array/LongestConsecutiveSequence.java)           | Medium     | Array               |
