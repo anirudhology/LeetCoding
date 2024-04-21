@@ -42,6 +42,7 @@ This repository contains my solutions to various LeetCode problems implemented i
 | 474        | Ones And Zeroes                         | [Solution](src/main/java/com/anirudhology/leetcoding/dynamicprogramming/OnesAndZeroes.java)                | Medium     | Dynamic Programming |
 | 543        | Diameter Of Binary Tree                 | [Solution](src/main/java/com/anirudhology/leetcoding/tree/DiameterOfBinaryTree.java)                       | Easy       | Tree                |
 | 572        | Subtree Of Another Tree                 | [Solution](src/main/java/com/anirudhology/leetcoding/tree/SubtreeOfAnotherTree.java)                       | Easy       | Tree                |
+| 646        | Maximum Length Of Pair Chain            | [Solution](src/main/java/com/anirudhology/leetcoding/dynamicprogramming/MaximumLengthOfPairChain.java)     | Medium     | Dynamic Programming |
 | 650        | 2 Keys Keyboard                         | [Solution](src/main/java/com/anirudhology/leetcoding/dynamicprogramming/TwoKeysKeyboard.java)              | Medium     | Dynamic Programming |
 | 746        | Min Cost Climbing Stairs                | [Solution](src/main/java/com/anirudhology/leetcoding/dynamicprogramming/MinCostClimbingStairs.java)        | Easy       | Dynamic Programming |
 | 920        | Meeting Rooms                           | [Solution](src/main/java/com/anirudhology/leetcoding/array/MeetingRooms.java)                              | Easy       | Array               |
