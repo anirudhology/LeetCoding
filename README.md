@@ -27,6 +27,7 @@ This repository contains my solutions to various LeetCode problems implemented i
 | 128        | Longest Consecutive Sequence             | [Solution](src/main/java/com/anirudhology/leetcoding/array/LongestConsecutiveSequence.java)                        | Medium     | Array               |
 | 134        | Gas Station                              | [Solution](src/main/java/com/anirudhology/leetcoding/array/GasStation.java)                                        | Medium     | Array, Greedy       |
 | 169        | Majority Element                         | [Solution](src/main/java/com/anirudhology/leetcoding/array/MajorityElement.java)                                   | Easy       | Array               |
+| 198        | House Robber                             | [Solution](src/main/java/com/anirudhology/leetcoding/dynamicprogramming/HouseRobber.java)                          | Medium     | Dynamic Programming |
 | 217        | Contains Duplicate                       | [Solution](src/main/java/com/anirudhology/leetcoding/array/ContainsDuplicate.java)                                 | Easy       | Array               |
 | 226        | Invert Binary Tree                       | [Solution](src/main/java/com/anirudhology/leetcoding/tree/InvertBinaryTree.java)                                   | Easy       | Tree                |
 | 236        | Lowest Common Ancestor Of A Binary Tree  | [Solution](src/main/java/com/anirudhology/leetcoding/tree/LowestCommonAncestorOfABinaryTree.java)                  | Medium     | Tree                |
