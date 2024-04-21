@@ -39,8 +39,6 @@ public class MaximumLengthOfPairChain {
         }
         // Sort the pairs by their second element
         Arrays.sort(pairs, Comparator.comparingInt(pair -> pair[1]));
-        // Length of the array
-        int n = pairs.length;
         // Maximum length of the pair chain
         int maxLength = 0;
         // Variable to keep track of last element of the chain
