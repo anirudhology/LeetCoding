@@ -12,8 +12,6 @@ public class LongestStringChain {
         if (words == null || words.length == 0) {
             return 0;
         }
-        // Total number of words
-        int n = words.length;
         // Sort the array
         Arrays.sort(words, Comparator.comparingInt(String::length));
         // Map to store the length of longest chain starting from a word
