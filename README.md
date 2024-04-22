@@ -46,6 +46,7 @@ This repository contains my solutions to various LeetCode problems implemented i
 | 646        | Maximum Length Of Pair Chain             | [Solution](src/main/java/com/anirudhology/leetcoding/dynamicprogramming/MaximumLengthOfPairChain.java)             | Medium     | Dynamic Programming |
 | 650        | 2 Keys Keyboard                          | [Solution](src/main/java/com/anirudhology/leetcoding/dynamicprogramming/TwoKeysKeyboard.java)                      | Medium     | Dynamic Programming |
 | 673        | Number Of Longest Increasing Subsequence | [Solution](src/main/java/com/anirudhology/leetcoding/dynamicprogramming/NumberOfLongestIncreasingSubsequence.java) | Medium     | Dynamic Programming |
+| 740        | Delete And Earn                          | [Solution](src/main/java/com/anirudhology/leetcoding/dynamicprogramming/DeleteAndEarn.java)                        | Medium     | Dynamic Programming |
 | 746        | Min Cost Climbing Stairs                 | [Solution](src/main/java/com/anirudhology/leetcoding/dynamicprogramming/MinCostClimbingStairs.java)                | Easy       | Dynamic Programming |
 | 920        | Meeting Rooms                            | [Solution](src/main/java/com/anirudhology/leetcoding/array/MeetingRooms.java)                                      | Easy       | Array               |
 | 931        | Minimum Falling Path Sum                 | [Solution](src/main/java/com/anirudhology/leetcoding/dynamicprogramming/MinimumFallingPathSum.java)                | Medium     | Dynamic Programming |
