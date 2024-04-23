@@ -56,3 +56,4 @@ This repository contains my solutions to various LeetCode problems implemented i
 | 1046       | Last Stone Weight                        | [Solution](src/main/java/com/anirudhology/leetcoding/heap/LastStoneWeight.java)                                    | Easy       | Heap                |
 | 1048       | Longest String Chain                     | [Solution](src/main/java/com/anirudhology/leetcoding/dynamicprogramming/LongestStringChain.java)                   | Medium     | Dynamic Programming |
 | 1049       | Last Stone Weight II                     | [Solution](src/main/java/com/anirudhology/leetcoding/dynamicprogramming/LastStoneWeightII.java)                    | Medium     | Dynamic Programming |
+| 1143       | Longest Common Subsequence               | [Solution](src/main/java/com/anirudhology/leetcoding/dynamicprogramming/LongestCommonSubsequence.java)             | Medium     | Dynamic Programming |
