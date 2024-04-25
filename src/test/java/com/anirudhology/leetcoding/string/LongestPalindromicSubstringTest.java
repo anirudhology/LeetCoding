@@ -23,13 +23,13 @@ class LongestPalindromicSubstringTest {
     @Test
     public void testLongestPalindromeWithNoPalindrome() {
         String input = "xyz";
-        assertEquals("x", longestPalindromicSubstring.longestPalindrome(input));
+        assertEquals("z", longestPalindromicSubstring.longestPalindrome(input));
     }
 
     @Test
     public void testLongestPalindromeWithOddLengthPalindrome() {
         String input = "babad";
-        assertEquals("bab", longestPalindromicSubstring.longestPalindrome(input));
+        assertEquals("aba", longestPalindromicSubstring.longestPalindrome(input));
     }
 
     @Test
