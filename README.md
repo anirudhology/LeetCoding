@@ -57,6 +57,7 @@ This repository contains my solutions to various LeetCode problems implemented i
 | 931        | Minimum Falling Path Sum                 | [Solution](src/main/java/com/anirudhology/leetcoding/dynamicprogramming/MinimumFallingPathSum.java)                | Medium     | Dynamic Programming |
 | 977        | Squares Of Sorted Array                  | [Solution](src/main/java/com/anirudhology/leetcoding/array/SquaresOfSortedArray.java)                              | Easy       | Array               |
 | 983        | Minimum Cost For Tickets                 | [Solution](src/main/java/com/anirudhology/leetcoding/dynamicprogramming/MinimumCostForTickets.java)                | Medium     | Dynamic Programming |
+| 1020       | Number Of Enclaves                       | [Solution](src/main/java/com/anirudhology/leetcoding/graph/NumberOfEnclaves.java)                                  | Easy       | Heap                |
 | 1046       | Last Stone Weight                        | [Solution](src/main/java/com/anirudhology/leetcoding/heap/LastStoneWeight.java)                                    | Easy       | Heap                |
 | 1048       | Longest String Chain                     | [Solution](src/main/java/com/anirudhology/leetcoding/dynamicprogramming/LongestStringChain.java)                   | Medium     | Dynamic Programming |
 | 1049       | Last Stone Weight II                     | [Solution](src/main/java/com/anirudhology/leetcoding/dynamicprogramming/LastStoneWeightII.java)                    | Medium     | Dynamic Programming |
