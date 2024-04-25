@@ -1,4 +1,4 @@
-package com.anirudhology.leetcoding;
+package com.anirudhology.leetcoding.graph;
 
 import org.junit.jupiter.api.Test;
 
