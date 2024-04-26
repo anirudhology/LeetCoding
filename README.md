@@ -28,6 +28,7 @@ This repository contains my solutions to various LeetCode problems implemented i
 | 121        | Best Time To Buy And Sell Stocks         | [Solution](src/main/java/com/anirudhology/leetcoding/array/BestTimeToBuyAndSellStocks.java)                        | Easy       | Array               |
 | 125        | Valid Palindrome                         | [Solution](src/main/java/com/anirudhology/leetcoding/string/ValidPalindrome.java)                                  | Easy       | String              |
 | 128        | Longest Consecutive Sequence             | [Solution](src/main/java/com/anirudhology/leetcoding/array/LongestConsecutiveSequence.java)                        | Medium     | Array               |
+| 130        | Surrounded Regions                       | [Solution](src/main/java/com/anirudhology/leetcoding/graph/SurroundedRegions.java)                                 | Medium     | Graph               |
 | 134        | Gas Station                              | [Solution](src/main/java/com/anirudhology/leetcoding/array/GasStation.java)                                        | Medium     | Array, Greedy       |
 | 169        | Majority Element                         | [Solution](src/main/java/com/anirudhology/leetcoding/array/MajorityElement.java)                                   | Easy       | Array               |
 | 198        | House Robber                             | [Solution](src/main/java/com/anirudhology/leetcoding/dynamicprogramming/HouseRobber.java)                          | Medium     | Dynamic Programming |
@@ -57,7 +58,7 @@ This repository contains my solutions to various LeetCode problems implemented i
 | 931        | Minimum Falling Path Sum                 | [Solution](src/main/java/com/anirudhology/leetcoding/dynamicprogramming/MinimumFallingPathSum.java)                | Medium     | Dynamic Programming |
 | 977        | Squares Of Sorted Array                  | [Solution](src/main/java/com/anirudhology/leetcoding/array/SquaresOfSortedArray.java)                              | Easy       | Array               |
 | 983        | Minimum Cost For Tickets                 | [Solution](src/main/java/com/anirudhology/leetcoding/dynamicprogramming/MinimumCostForTickets.java)                | Medium     | Dynamic Programming |
-| 1020       | Number Of Enclaves                       | [Solution](src/main/java/com/anirudhology/leetcoding/graph/NumberOfEnclaves.java)                                  | Easy       | Heap                |
+| 1020       | Number Of Enclaves                       | [Solution](src/main/java/com/anirudhology/leetcoding/graph/NumberOfEnclaves.java)                                  | Medium     | Graph               |
 | 1046       | Last Stone Weight                        | [Solution](src/main/java/com/anirudhology/leetcoding/heap/LastStoneWeight.java)                                    | Easy       | Heap                |
 | 1048       | Longest String Chain                     | [Solution](src/main/java/com/anirudhology/leetcoding/dynamicprogramming/LongestStringChain.java)                   | Medium     | Dynamic Programming |
 | 1049       | Last Stone Weight II                     | [Solution](src/main/java/com/anirudhology/leetcoding/dynamicprogramming/LastStoneWeightII.java)                    | Medium     | Dynamic Programming |
