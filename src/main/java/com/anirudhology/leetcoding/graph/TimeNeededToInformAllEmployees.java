@@ -7,7 +7,7 @@ import java.util.Map;
 
 public class TimeNeededToInformAllEmployees {
 
-    public int numOfMinutes(int n, int headID, int[] manager, int[] informTime) {
+    public int numOfMinutes(int headID, int[] manager, int[] informTime) {
         // Map to store the managers and their subordinates
         Map<Integer, List<Integer>> mappings = new HashMap<>();
         for (int employeeId = 0; employeeId < manager.length; employeeId++) {

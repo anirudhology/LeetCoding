@@ -14,7 +14,7 @@ class TimeNeededToInformAllEmployeesTest {
         int headID = 2;
         int[] manager = {2, 2, -1, 2, 2, 2};
         int[] informTime = {0, 0, 1, 0, 0, 0};
-        assertEquals(1, timeNeededToInformAllEmployees.numOfMinutes(n, headID, manager, informTime));
+        assertEquals(1, timeNeededToInformAllEmployees.numOfMinutes(headID, manager, informTime));
     }
 
     @Test
@@ -23,7 +23,7 @@ class TimeNeededToInformAllEmployeesTest {
         int headID = 0;
         int[] manager = {-1};
         int[] informTime = {0};
-        assertEquals(0, timeNeededToInformAllEmployees.numOfMinutes(n, headID, manager, informTime));
+        assertEquals(0, timeNeededToInformAllEmployees.numOfMinutes(headID, manager, informTime));
     }
 
     @Test
@@ -32,7 +32,7 @@ class TimeNeededToInformAllEmployeesTest {
         int headID = 0;
         int[] manager = {-1, 0};
         int[] informTime = {0, 10};
-        assertEquals(0, timeNeededToInformAllEmployees.numOfMinutes(n, headID, manager, informTime));
+        assertEquals(0, timeNeededToInformAllEmployees.numOfMinutes(headID, manager, informTime));
     }
 
     @Test
@@ -41,7 +41,7 @@ class TimeNeededToInformAllEmployeesTest {
         int headID = 0;
         int[] manager = {-1, 0, 0};
         int[] informTime = {0, 5, 10};
-        assertEquals(0, timeNeededToInformAllEmployees.numOfMinutes(n, headID, manager, informTime));
+        assertEquals(0, timeNeededToInformAllEmployees.numOfMinutes(headID, manager, informTime));
     }
 
 }
