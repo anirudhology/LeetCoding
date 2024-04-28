@@ -52,6 +52,7 @@ This repository contains my solutions to various LeetCode problems implemented i
 | 543        | Diameter Of Binary Tree                  | [Solution](src/main/java/com/anirudhology/leetcoding/tree/DiameterOfBinaryTree.java)                               | Easy       | Tree                |
 | 572        | Subtree Of Another Tree                  | [Solution](src/main/java/com/anirudhology/leetcoding/tree/SubtreeOfAnotherTree.java)                               | Easy       | Tree                |
 | 646        | Maximum Length Of Pair Chain             | [Solution](src/main/java/com/anirudhology/leetcoding/dynamicprogramming/MaximumLengthOfPairChain.java)             | Medium     | Dynamic Programming |
+| 647        | Palindromic Substring                    | [Solution](src/main/java/com/anirudhology/leetcoding/string/PalindromicSubstrings.java)                            | Medium     | String              |
 | 650        | 2 Keys Keyboard                          | [Solution](src/main/java/com/anirudhology/leetcoding/dynamicprogramming/TwoKeysKeyboard.java)                      | Medium     | Dynamic Programming |
 | 673        | Number Of Longest Increasing Subsequence | [Solution](src/main/java/com/anirudhology/leetcoding/dynamicprogramming/NumberOfLongestIncreasingSubsequence.java) | Medium     | Dynamic Programming |
 | 698        | Partition To K Equal Sum Subsets         | [Solution](src/main/java/com/anirudhology/leetcoding/backtracking/PartitionToKEqualSumSubsets.java)                | Medium     | Dynamic Programming |
