@@ -10,6 +10,7 @@ This repository contains my solutions to various LeetCode problems implemented i
 | 5          | Longest Palindromic Substring            | [Solution](src/main/java/com/anirudhology/leetcoding/string/LongestPalindromicSubstring.java)                      | Medium     | String              |
 | 11         | Container With Most Water                | [Solution](src/main/java/com/anirudhology/leetcoding/array/ContainerWithMostWater.java)                            | Medium     | Array               |
 | 15         | Three Sum                                | [Solution](src/main/java/com/anirudhology/leetcoding/array/ThreeSum.java)                                          | Medium     | Array               |
+| 20         | Valid Parentheses                        | [Solution](src/main/java/com/anirudhology/leetcoding/stack/ValidParentheses.java)                                  | Easy       | Stack               |
 | 39         | Combination Sum                          | [Solution](src/main/java/com/anirudhology/leetcoding/backtracking/CombinationSum.java)                             | Medium     | Backtracking        |
 | 53         | Maximum Subarray                         | [Solution](src/main/java/com/anirudhology/leetcoding/dynamicprogramming/MaximumSubarray.java)                      | Medium     | Dynamic Programming |
 | 56         | Merge Interval                           | [Solution](src/main/java/com/anirudhology/leetcoding/array/MergeIntervals.java)                                    | Medium     | Array               |
