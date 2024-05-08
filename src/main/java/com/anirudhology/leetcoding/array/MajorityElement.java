@@ -6,6 +6,10 @@ import java.util.Map;
 
 public class MajorityElement {
 
+    /**
+     * Time Complexity - O(N*log(N))
+     * Space Complexity - O(1)
+     */
     public int majorityElementBruteForce(int[] nums) {
         // Special case
         if (nums == null || nums.length == 0) {
