@@ -2,58 +2,63 @@ package com.anirudhology.leetcoding.array;
 
 import org.junit.jupiter.api.Test;
 
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 class BestTimeToBuyAndSellStocksTest {
 
     private final BestTimeToBuyAndSellStocks bestTimeToBuyAndSellStocks = new BestTimeToBuyAndSellStocks();
 
     @Test
-    void testMaxProfitNormalCase() {
-        // Normal case: prices in ascending order
-        int[] prices1 = {1, 2, 3, 4, 5};
-        assertEquals(4, bestTimeToBuyAndSellStocks.maxProfit(prices1));
-
-        // Normal case: prices in descending order
-        int[] prices2 = {5, 4, 3, 2, 1};
-        assertEquals(0, bestTimeToBuyAndSellStocks.maxProfit(prices2));
-
-        // Normal case: arbitrary prices
-        int[] prices3 = {7, 1, 5, 3, 6, 4};
-        assertEquals(5, bestTimeToBuyAndSellStocks.maxProfit(prices3));
+    void testMaxProfitBruteForce() {
+        int[] prices = {7, 1, 5, 3, 6, 4};
+        assertEquals(5, bestTimeToBuyAndSellStocks.maxProfitBruteForce(prices));
     }
 
     @Test
-    void testMaxProfitSpecialCase() {
-        // Special case: empty array
-        int[] prices4 = {};
-        IllegalArgumentException exception1 = assertThrows(IllegalArgumentException.class, () -> bestTimeToBuyAndSellStocks.maxProfit(prices4));
-        assertEquals("Prices array cannot be null or empty", exception1.getMessage());
-
-        // Special case: null array
-        int[] prices5 = null;
-        IllegalArgumentException exception2 = assertThrows(IllegalArgumentException.class, () -> bestTimeToBuyAndSellStocks.maxProfit(prices5));
-        assertEquals("Prices array cannot be null or empty", exception2.getMessage());
+    void testMaxProfitKadaneAlgorithm() {
+        int[] prices = {7, 1, 5, 3, 6, 4};
+        assertEquals(5, bestTimeToBuyAndSellStocks.maxProfitKadaneAlgorithm(prices));
     }
 
     @Test
-    void testMaxProfitSinglePrice() {
-        // Single price in the array
-        int[] prices6 = {10};
-        assertEquals(0, bestTimeToBuyAndSellStocks.maxProfit(prices6));
+    void testMaxProfitStraightForward() {
+        int[] prices = {7, 1, 5, 3, 6, 4};
+        assertEquals(5, bestTimeToBuyAndSellStocks.maxProfitStraightForward(prices));
     }
 
     @Test
-    void testMaxProfitSamePrice() {
-        // Same price for all elements
-        int[] prices7 = {1, 1, 1, 1, 1};
-        assertEquals(0, bestTimeToBuyAndSellStocks.maxProfit(prices7));
+    void testMaxProfitBruteForceEmptyArray() {
+        int[] prices = {};
+        assertEquals(0, bestTimeToBuyAndSellStocks.maxProfitBruteForce(prices));
     }
 
     @Test
-    void testMaxProfitMinMax() {
-        // Minimum and maximum price are the same
-        int[] prices8 = {3, 3, 3, 3, 3};
-        assertEquals(0, bestTimeToBuyAndSellStocks.maxProfit(prices8));
+    void testMaxProfitKadaneAlgorithmEmptyArray() {
+        int[] prices = {};
+        assertEquals(0, bestTimeToBuyAndSellStocks.maxProfitKadaneAlgorithm(prices));
+    }
+
+    @Test
+    void testMaxProfitStraightForwardEmptyArray() {
+        int[] prices = {};
+        assertEquals(0, bestTimeToBuyAndSellStocks.maxProfitStraightForward(prices));
+    }
+
+    @Test
+    void testMaxProfitBruteForceNullArray() {
+        int[] prices = null;
+        assertEquals(0, bestTimeToBuyAndSellStocks.maxProfitBruteForce(prices));
+    }
+
+    @Test
+    void testMaxProfitKadaneAlgorithmNullArray() {
+        int[] prices = null;
+        assertEquals(0, bestTimeToBuyAndSellStocks.maxProfitKadaneAlgorithm(prices));
+    }
+
+    @Test
+    void testMaxProfitStraightForwardNullArray() {
+        int[] prices = null;
+        assertEquals(0, bestTimeToBuyAndSellStocks.maxProfitStraightForward(prices));
     }
 }

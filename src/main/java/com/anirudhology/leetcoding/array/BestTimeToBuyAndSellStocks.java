@@ -2,10 +2,57 @@ package com.anirudhology.leetcoding.array;
 
 public class BestTimeToBuyAndSellStocks {
 
-    public int maxProfit(int[] prices) {
+    /**
+     * Time Complexity - O(N^2)
+     * Space Complexity - O(1)
+     */
+    public int maxProfitBruteForce(int[] prices) {
         // Special case
         if (prices == null || prices.length == 0) {
-            throw new IllegalArgumentException("Prices array cannot be null or empty");
+            return 0;
+        }
+        // Length of the array
+        int n = prices.length;
+        // Maximum profit
+        int maxProfit = 0;
+        // Process all the prices in the array
+        for (int i = 0; i < n; i++) {
+            for (int j = i + 1; j < n; j++) {
+                maxProfit = Math.max(maxProfit, prices[j] - prices[i]);
+            }
+        }
+        return maxProfit;
+    }
+
+    /**
+     * Time Complexity - O(N)
+     * Space Complexity - O(1)
+     */
+    public int maxProfitKadaneAlgorithm(int[] prices) {
+        // Special case
+        if (prices == null || prices.length == 0) {
+            return 0;
+        }
+        // Current profit
+        int currentProfit = 0;
+        // Maximum profit
+        int maxProfit = 0;
+        // Traverse through prices array
+        for (int i = 1; i < prices.length; i++) {
+            currentProfit = Math.max(0, currentProfit + (prices[i] - prices[i - 1]));
+            maxProfit = Math.max(maxProfit, currentProfit);
+        }
+        return maxProfit;
+    }
+
+    /**
+     * Time Complexity - O(N)
+     * Space Complexity - O(1)
+     */
+    public int maxProfitStraightForward(int[] prices) {
+        // Special case
+        if (prices == null || prices.length == 0) {
+            return 0;
         }
         // The maximum profit will be realized when we purchase the stock at the lowest
         // price and sell it at the highest price. This is possible because we are allowed
