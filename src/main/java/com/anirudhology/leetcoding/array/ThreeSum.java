@@ -6,6 +6,10 @@ import java.util.List;
 
 public class ThreeSum {
 
+    /**
+     * Time Complexity - O(N*N)
+     * Space Complexity - O(1)
+     */
     public List<List<Integer>> threeSum(int[] nums) {
         // List to store the triplets
         List<List<Integer>> triplets = new ArrayList<>();
