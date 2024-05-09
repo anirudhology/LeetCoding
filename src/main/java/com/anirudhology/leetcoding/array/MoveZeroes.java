@@ -2,35 +2,44 @@ package com.anirudhology.leetcoding.array;
 
 public class MoveZeroes {
 
-    public int[] moveZeroesOne(int[] nums) {
+    /**
+     * Time Complexity - O(N)
+     * Space Complexity - O(1)
+     */
+    public int[] moveZeroesTwoPointers(int[] nums) {
         // Special case
         if (nums == null || nums.length == 0) {
-            throw new IllegalArgumentException("Array cannot be null or empty.");
+            return nums;
         }
-        // Counter for zeroes
-        int count = 0;
-        // Index for non-zero elements
+        // Length of the array
+        int n = nums.length;
+        // Index to keep track of non-zero elements
         int index = 0;
-        // Traverse through the array
-        for (int num : nums) {
-            if (num != 0) {
-                nums[index] = num;
+        // Traverse the array
+        for (int i = 0; i < n; i++) {
+            // If the current element is not zero, we will
+            // put it at the left index
+            if (nums[i] != 0) {
+                nums[index] = nums[i];
                 index++;
-            } else {
-                count++;
             }
         }
-        // Place zeroes at the right of all non-zero elements
-        for (int i = index; i < nums.length; i++) {
-            nums[i] = 0;
+        // For the remaining positions in the array
+        while (index < n) {
+            nums[index] = 0;
+            index++;
         }
         return nums;
     }
 
-    public int[] moveZeroesTwo(int[] nums) {
+    /**
+     * Time Complexity - O(N)
+     * Space Complexity - O(1)
+     */
+    public int[] moveZeroesSwapping(int[] nums) {
         // Special case
         if (nums == null || nums.length == 0) {
-            throw new IllegalArgumentException("Array cannot be null or empty.");
+            return nums;
         }
         // Left and right pointers
         int left = 0;
