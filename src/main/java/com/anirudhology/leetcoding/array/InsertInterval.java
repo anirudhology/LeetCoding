@@ -5,6 +5,10 @@ import java.util.List;
 
 public class InsertInterval {
 
+    /**
+     * Time Complexity - O(N)
+     * Space Complexity - O(1)
+     */
     public int[][] insert(int[][] intervals, int[] newInterval) {
         // Special cases
         if (intervals == null || intervals.length == 0 || newInterval == null || newInterval.length == 0) {
@@ -37,11 +41,6 @@ public class InsertInterval {
             result.add(intervals[index]);
             index++;
         }
-        // Convert back to 2D array
-        int[][] overlappedIntervals = new int[result.size()][2];
-        for (int i = 0; i < overlappedIntervals.length; i++) {
-            overlappedIntervals[i] = result.get(i);
-        }
-        return overlappedIntervals;
+        return result.toArray(new int[result.size()][]);
     }
 }
