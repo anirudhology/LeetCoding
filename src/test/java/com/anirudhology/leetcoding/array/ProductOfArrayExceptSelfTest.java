@@ -9,52 +9,52 @@ class ProductOfArrayExceptSelfTest {
     private final ProductOfArrayExceptSelf productOfArrayExceptSelf = new ProductOfArrayExceptSelf();
 
     @Test
-    public void testProductExceptSelfOneWithNullInputShouldReturnInputArray() {
+    public void testProductExceptSelfSuboptimalWithNullInputShouldReturnInputArray() {
         int[] nums = null;
-        assertArrayEquals(nums, productOfArrayExceptSelf.productExceptSelfOne(nums));
+        assertArrayEquals(nums, productOfArrayExceptSelf.productExceptSelfSuboptimal(nums));
     }
 
     @Test
-    public void testProductExceptSelfOneWithEmptyInputShouldReturnInputArray() {
+    public void testProductExceptSelfSuboptimalWithEmptyInputShouldReturnInputArray() {
         int[] nums = {};
-        assertArrayEquals(nums, productOfArrayExceptSelf.productExceptSelfOne(nums));
+        assertArrayEquals(nums, productOfArrayExceptSelf.productExceptSelfSuboptimal(nums));
     }
 
     @Test
-    public void testProductExceptSelfOneWithSingleElementInputShouldReturnInputArray() {
+    public void testProductExceptSelfSuboptimalWithSingleElementInputShouldReturnInputArray() {
         int[] nums = {5};
-        assertArrayEquals(nums, productOfArrayExceptSelf.productExceptSelfOne(nums));
+        assertArrayEquals(nums, productOfArrayExceptSelf.productExceptSelfSuboptimal(nums));
     }
 
     @Test
     public void testProductExceptSelfOneWithMultipleElementsShouldReturnCorrectProductArray() {
         int[] nums = {1, 2, 3, 4};
         int[] expected = {24, 12, 8, 6};
-        assertArrayEquals(expected, productOfArrayExceptSelf.productExceptSelfOne(nums));
+        assertArrayEquals(expected, productOfArrayExceptSelf.productExceptSelfSuboptimal(nums));
     }
 
     @Test
-    public void testProductExceptSelfTwoWithNullInputShouldReturnInputArray() {
+    public void testProductExceptSelfOptimalWithNullInputShouldReturnInputArray() {
         int[] nums = null;
-        assertArrayEquals(nums, productOfArrayExceptSelf.productExceptSelfTwo(nums));
+        assertArrayEquals(nums, productOfArrayExceptSelf.productExceptSelfOptimal(nums));
     }
 
     @Test
-    public void testProductExceptSelfTwoWithEmptyInputShouldReturnInputArray() {
+    public void testProductExceptSelfOptimalWithEmptyInputShouldReturnInputArray() {
         int[] nums = {};
-        assertArrayEquals(nums, productOfArrayExceptSelf.productExceptSelfTwo(nums));
+        assertArrayEquals(nums, productOfArrayExceptSelf.productExceptSelfOptimal(nums));
     }
 
     @Test
-    public void testProductExceptSelfTwoWithSingleElementInputShouldReturnInputArray() {
+    public void testProductExceptSelfOptimalWithSingleElementInputShouldReturnInputArray() {
         int[] nums = {5};
-        assertArrayEquals(nums, productOfArrayExceptSelf.productExceptSelfTwo(nums));
+        assertArrayEquals(nums, productOfArrayExceptSelf.productExceptSelfOptimal(nums));
     }
 
     @Test
     public void testProductExceptSelfTwoWithMultipleElementsShouldReturnCorrectProductArray() {
         int[] nums = {1, 2, 3, 4};
         int[] expected = {24, 12, 8, 6};
-        assertArrayEquals(expected, productOfArrayExceptSelf.productExceptSelfTwo(nums));
+        assertArrayEquals(expected, productOfArrayExceptSelf.productExceptSelfOptimal(nums));
     }
 }

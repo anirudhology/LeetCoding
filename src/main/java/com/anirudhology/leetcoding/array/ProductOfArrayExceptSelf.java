@@ -2,7 +2,11 @@ package com.anirudhology.leetcoding.array;
 
 public class ProductOfArrayExceptSelf {
 
-    public int[] productExceptSelfOne(int[] nums) {
+    /**
+     * Time Complexity - O(N)
+     * Space Complexity - O(N)
+     */
+    public int[] productExceptSelfSuboptimal(int[] nums) {
         // Special case
         if (nums == null || nums.length < 2) {
             return nums;
@@ -30,7 +34,11 @@ public class ProductOfArrayExceptSelf {
         return nums;
     }
 
-    public int[] productExceptSelfTwo(int[] nums) {
+    /**
+     * Time Complexity - O(N)
+     * Space Complexity - O(1)
+     */
+    public int[] productExceptSelfOptimal(int[] nums) {
         // Special case
         if (nums == null || nums.length < 2) {
             return nums;
