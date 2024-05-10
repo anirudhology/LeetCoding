@@ -7,6 +7,10 @@ import java.util.List;
 
 public class MergeIntervals {
 
+    /**
+     * Time Complexity - O(N*log(N))
+     * Space Complexity - O(1)
+     */
     public int[][] merge(int[][] intervals) {
         // Special case
         if (intervals == null) {
