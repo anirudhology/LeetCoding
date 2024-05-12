@@ -54,8 +54,6 @@ public class SubarraySumEqualsK {
         if (nums == null || nums.length == 0) {
             return 0;
         }
-        // Length of the array
-        int n = nums.length;
         // Count of valid subarrays
         int count = 0;
         // Map to store cumulative sum and its frequency
