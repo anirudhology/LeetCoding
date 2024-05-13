@@ -41,6 +41,7 @@ This repository contains my solutions to various LeetCode problems implemented i
 | 236        | Lowest Common Ancestor Of A Binary Tree  | [Solution](src/main/java/com/anirudhology/leetcoding/tree/LowestCommonAncestorOfABinaryTree.java)                  | Medium     | Tree                |
 | 238        | Product Of Array Except Self             | [Solution](src/main/java/com/anirudhology/leetcoding/array/ProductOfArrayExceptSelf.java)                          | Medium     | Array               |
 | 242        | Valid Anagram                            | [Solution](src/main/java/com/anirudhology/leetcoding/string/ValidAnagram.java)                                     | Easy       | String              |
+| 253        | Meeting Rooms II                         | [Solution](src/main/java/com/anirudhology/leetcoding/heap/MeetingRoomsII.java)                                     | Medium     | Array, Heap         |
 | 279        | Perfect Squares                          | [Solution](src/main/java/com/anirudhology/leetcoding/dynamicprogramming/PerfectSquares.java)                       | Medium     | Dynamic Programming |
 | 283        | Move Zeroes                              | [Solution](src/main/java/com/anirudhology/leetcoding/array/MoveZeroes.java)                                        | Easy       | Array               |
 | 300        | Longest Increasing Subsequence           | [Solution](src/main/java/com/anirudhology/leetcoding/dynamicprogramming/LongestIncreasingSubsequence.java)         | Medium     | Dynamic Programming |
