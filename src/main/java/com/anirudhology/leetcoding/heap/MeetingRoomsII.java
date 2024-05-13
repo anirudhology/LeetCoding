@@ -1,4 +1,4 @@
-package com.anirudhology.leetcoding.array;
+package com.anirudhology.leetcoding.heap;
 
 import java.util.Arrays;
 import java.util.Comparator;
