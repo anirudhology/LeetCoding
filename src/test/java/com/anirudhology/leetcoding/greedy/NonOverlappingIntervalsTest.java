@@ -1,4 +1,4 @@
-package com.anirudhology.leetcoding.backtracking;
+package com.anirudhology.leetcoding.greedy;
 
 import org.junit.jupiter.api.Test;
 
