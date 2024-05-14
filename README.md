@@ -50,6 +50,7 @@ This repository contains my solutions to various LeetCode problems implemented i
 | 354        | Russian Doll Envelopes                   | [Solution](src/main/java/com/anirudhology/leetcoding/dynamicprogramming/RussianDollEnvelopes.java)                 | Hard       | Dynamic Programming |
 | 368        | Largest Divisible Subset                 | [Solution](src/main/java/com/anirudhology/leetcoding/dynamicprogramming/LargestDivisibleSubset.java)               | Medium     | Dynamic Programming |
 | 416        | Partition Equal Subset Sum               | [Solution](src/main/java/com/anirudhology/leetcoding/dynamicprogramming/PartitionEqualSubsetSum.java)              | Medium     | Dynamic Programming |
+| 435        | Non Overlapping Intervals                | [Solution](src/main/java/com/anirudhology/leetcoding/greedy/NonOverlappingIntervals.java)                          | Medium     | Greedy              |
 | 474        | Ones And Zeroes                          | [Solution](src/main/java/com/anirudhology/leetcoding/dynamicprogramming/OnesAndZeroes.java)                        | Medium     | Dynamic Programming |
 | 509        | Fibonacci Number                         | [Solution](src/main/java/com/anirudhology/leetcoding/dynamicprogramming/FibonacciNumber.java)                      | Easy       | Dynamic Programming |
 | 525        | Contiguous Array                         | [Solution](src/main/java/com/anirudhology/leetcoding/array/ContiguousArray.java)                                   | Medium     | Array               |
