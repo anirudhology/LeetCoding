@@ -40,6 +40,7 @@ This repository contains my solutions to various LeetCode problems implemented i
 | 200        | Number Of Islands                        | [Solution](src/main/java/com/anirudhology/leetcoding/graph/NumberOfIslands.java)                                   | Medium     | Graph                 |
 | 217        | Contains Duplicate                       | [Solution](src/main/java/com/anirudhology/leetcoding/array/ContainsDuplicate.java)                                 | Easy       | Array                 |
 | 226        | Invert Binary Tree                       | [Solution](src/main/java/com/anirudhology/leetcoding/tree/InvertBinaryTree.java)                                   | Easy       | Tree                  |
+| 232        | Implement Queue Using Stacks             | [Solution](src/main/java/com/anirudhology/leetcoding/stack/ImplementQueueUsingStacks.java)                         | Easy       | Stack, Queue          |
 | 236        | Lowest Common Ancestor Of A Binary Tree  | [Solution](src/main/java/com/anirudhology/leetcoding/tree/LowestCommonAncestorOfABinaryTree.java)                  | Medium     | Tree                  |
 | 238        | Product Of Array Except Self             | [Solution](src/main/java/com/anirudhology/leetcoding/array/ProductOfArrayExceptSelf.java)                          | Medium     | Array                 |
 | 239        | Sliding Window Maximum                   | [Solution](src/main/java/com/anirudhology/leetcoding/array/SlidingWindowMaximum.java)                              | Hard       | Array, Sliding Window |
