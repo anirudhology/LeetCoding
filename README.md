@@ -33,6 +33,7 @@ This repository contains my solutions to various LeetCode problems implemented i
 | 128        | Longest Consecutive Sequence             | [Solution](src/main/java/com/anirudhology/leetcoding/array/LongestConsecutiveSequence.java)                        | Medium     | Array                 |
 | 130        | Surrounded Regions                       | [Solution](src/main/java/com/anirudhology/leetcoding/graph/SurroundedRegions.java)                                 | Medium     | Graph                 |
 | 134        | Gas Station                              | [Solution](src/main/java/com/anirudhology/leetcoding/greedy/GasStation.java)                                       | Medium     | Array, Greedy         |
+| 155        | Min Stack                                | [Solution](src/main/java/com/anirudhology/leetcoding/stack/MinStack.java)                                          | Medium     | Stack                 |
 | 169        | Majority Element                         | [Solution](src/main/java/com/anirudhology/leetcoding/array/MajorityElement.java)                                   | Easy       | Array                 |
 | 189        | Rotate Array                             | [Solution](src/main/java/com/anirudhology/leetcoding/array/RotateArray.java)                                       | Medium     | Array                 |
 | 198        | House Robber                             | [Solution](src/main/java/com/anirudhology/leetcoding/dynamicprogramming/HouseRobber.java)                          | Medium     | Dynamic Programming   |
