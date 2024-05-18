@@ -70,6 +70,7 @@ This repository contains my solutions to various LeetCode problems implemented i
 | 740        | Delete And Earn                          | [Solution](src/main/java/com/anirudhology/leetcoding/dynamicprogramming/DeleteAndEarn.java)                        | Medium     | Dynamic Programming   |
 | 746        | Min Cost Climbing Stairs                 | [Solution](src/main/java/com/anirudhology/leetcoding/dynamicprogramming/MinCostClimbingStairs.java)                | Easy       | Dynamic Programming   |
 | 759        | Employee Free Time                       | [Solution](src/main/java/com/anirudhology/leetcoding/array/EmployeeFreeTime.java)                                  | Hard       | Array                 |
+| 844        | Backspace String Compare                 | [Solution](src/main/java/com/anirudhology/leetcoding/stack/BackspaceStringCompare.java)                            | Easy       | Stack, Two Pointers   |
 | 920        | Meeting Rooms                            | [Solution](src/main/java/com/anirudhology/leetcoding/array/MeetingRooms.java)                                      | Easy       | Array                 |
 | 931        | Minimum Falling Path Sum                 | [Solution](src/main/java/com/anirudhology/leetcoding/dynamicprogramming/MinimumFallingPathSum.java)                | Medium     | Dynamic Programming   |
 | 977        | Squares Of Sorted Array                  | [Solution](src/main/java/com/anirudhology/leetcoding/array/SquaresOfSortedArray.java)                              | Easy       | Array                 |
