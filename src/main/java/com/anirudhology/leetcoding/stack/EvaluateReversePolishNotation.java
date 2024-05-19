@@ -27,14 +27,11 @@ public class EvaluateReversePolishNotation {
                 int operand1 = operands.pop();
                 int operand2 = operands.pop();
                 // Process operands
-                if (token.equals("+")) {
-                    operands.push(operand1 + operand2);
-                } else if (token.equals("-")) {
-                    operands.push(operand2 - operand1);
-                } else if (token.equals("*")) {
-                    operands.push(operand1 * operand2);
-                } else {
-                    operands.push(operand2 / operand1);
+                switch (token) {
+                    case "+" -> operands.push(operand1 + operand2);
+                    case "-" -> operands.push(operand2 - operand1);
+                    case "*" -> operands.push(operand1 * operand2);
+                    default -> operands.push(operand2 / operand1);
                 }
             } else {
                 operands.push(Integer.parseInt(token));
